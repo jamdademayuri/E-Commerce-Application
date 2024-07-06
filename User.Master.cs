@@ -33,6 +33,11 @@ namespace E_Commerce_Application
             {
                 Response.Write("<script>alert('You need to Login Again!!!');window.location.href='Login.aspx';</script>");
             }
+            if(!IsPostBack)
+            {
+                CountProduct();
+            }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -52,6 +57,19 @@ namespace E_Commerce_Application
             cmd.ExecuteNonQuery();
             Response.Write("<script>alert('Profile Changed Successfully!!!');window.location.href='Delete_Account.aspx';</script>");
 
+        }
+        protected void CountProduct()
+        {
+            if (Session["MyUser"]!=null)
+            {
+                string suser = Session["MyUser"].ToString();
+                string q = "select count(pid)as cnt from cart where suser='" + suser + "'";
+                SqlCommand c = new SqlCommand(q, conn);
+                SqlDataReader rdr = c.ExecuteReader();
+                rdr.Read();
+                Label2.Text = rdr["cnt"].ToString();
+            }
+            
         }
     }
 }

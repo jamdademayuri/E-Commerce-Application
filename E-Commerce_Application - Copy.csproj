@@ -72,8 +72,6 @@
     <Content Include="Cart.aspx" />
     <Content Include="Delete_Account.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="Orders.aspx" />
-    <Content Include="Order_History.aspx" />
     <Content Include="Place_Order.aspx" />
     <Content Include="Product_List.aspx" />
     <Content Include="User_List.aspx" />
@@ -121,20 +119,6 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Orders.aspx.cs">
-      <DependentUpon>Orders.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Orders.aspx.designer.cs">
-      <DependentUpon>Orders.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Order_History.aspx.cs">
-      <DependentUpon>Order_History.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Order_History.aspx.designer.cs">
-      <DependentUpon>Order_History.aspx</DependentUpon>
     </Compile>
     <Compile Include="Place_Order.aspx.cs">
       <DependentUpon>Place_Order.aspx</DependentUpon>
