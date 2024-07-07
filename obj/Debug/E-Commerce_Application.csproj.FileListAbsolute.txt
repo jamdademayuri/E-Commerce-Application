@@ -57,3 +57,7 @@ C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Com
 C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\obj\Debug\E-Commerce_Application.csproj.AssemblyReference.cache
 C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\obj\Debug\E-Commerce_Application.csproj.CoreCompileInputs.cache
 C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\obj\Debug\E-Commer.E42F547B.Up2Date
+C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\bin\BouncyCastle.Cryptography.dll
+C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\bin\itextsharp.dll
+C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\bin\BouncyCastle.Cryptography.xml
+C:\Users\Mayuri Jamdade\source\repos\DBIntegrationStoredProcedures_WebForm\E-Commerce_Application\bin\itextsharp.xml
